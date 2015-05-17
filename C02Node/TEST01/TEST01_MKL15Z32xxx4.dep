@@ -1,0 +1,605 @@
+Dependencies for Project 'TEST01', Target 'MKL15Z32xxx4': (DO NOT MODIFY !)
+F (.\Generated_Code\AD1.c)(0x5530EC28)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\ad1.o --omf_browse .\uvbuild\ad1.crf --depend .\uvbuild\ad1.d)
+I (Generated_Code\AD1.h)(0x5530E992)
+I (Generated_Code\PE_Types.h)(0x55505AE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (Generated_Code\PE_Error.h)(0x554B1A1E)
+I (Generated_Code\PE_Const.h)(0x552F43D8)
+I (Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (Generated_Code\Cpu.h)(0x552F459A)
+I (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+F (.\Generated_Code\AS1.c)(0x5550533E)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\as1.o --omf_browse .\uvbuild\as1.crf --depend .\uvbuild\as1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDF222)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDF222)
+I (Generated_Code\AS1.h)(0x552F459A)
+I (Generated_Code\Cpu.h)(0x552F459A)
+I (Generated_Code\PE_Types.h)(0x55505AE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (Generated_Code\PE_Error.h)(0x554B1A1E)
+I (Generated_Code\PE_Const.h)(0x552F43D8)
+I (Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (.\Sources\Events.h)(0x55360512)
+I (.\Generated_Code\AS2.h)(0x552F9422)
+I (.\Generated_Code\AD1.h)(0x5530E992)
+I (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (.\Generated_Code\GPIO1.h)(0x553F5FAE)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (.\Generated_Code\TI1.h)(0x552F459A)
+I (.\Generated_Code\TimerIntLdd1.h)(0x552F459A)
+I (.\Generated_Code\TU1.h)(0x552F459A)
+I (.\Static_Code\PDD\PIT_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\UART0_PDD.h)(0x552F6A8A)
+I (.\Sources\extern.h)(0x5551AF6E)
+I (.\Sources\GPIO2.h)(0x553A1E02)
+I (.\Generated_Code\Flash1.h)(0x553727C6)
+I (.\Static_Code\PDD\FTFA_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\MCM_PDD.h)(0x552F43D8)
+I (.\Sources\modbus.h)(0x555192A8)
+F (.\Generated_Code\AS2.c)(0x552F81A4)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\as2.o --omf_browse .\uvbuild\as2.crf --depend .\uvbuild\as2.d)
+I (Generated_Code\AS2.h)(0x552F9422)
+I (Generated_Code\Cpu.h)(0x552F459A)
+I (Generated_Code\PE_Types.h)(0x55505AE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (Generated_Code\PE_Error.h)(0x554B1A1E)
+I (Generated_Code\PE_Const.h)(0x552F43D8)
+I (Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (.\Sources\Events.h)(0x55360512)
+I (.\Generated_Code\AS1.h)(0x552F459A)
+I (.\Generated_Code\AD1.h)(0x5530E992)
+I (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (.\Generated_Code\GPIO1.h)(0x553F5FAE)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (.\Generated_Code\TI1.h)(0x552F459A)
+I (.\Generated_Code\TimerIntLdd1.h)(0x552F459A)
+I (.\Generated_Code\TU1.h)(0x552F459A)
+I (.\Static_Code\PDD\PIT_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\UART_PDD.h)(0x552F43D8)
+F (.\Generated_Code\Cpu.c)(0x553A32C2)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\cpu.o --omf_browse .\uvbuild\cpu.crf --depend .\uvbuild\cpu.d)
+I (Generated_Code\AD1.h)(0x5530E992)
+I (Generated_Code\PE_Types.h)(0x55505AE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (Generated_Code\PE_Error.h)(0x554B1A1E)
+I (Generated_Code\PE_Const.h)(0x552F43D8)
+I (Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (Generated_Code\Cpu.h)(0x552F459A)
+I (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (Generated_Code\AS1.h)(0x552F459A)
+I (Generated_Code\AS2.h)(0x552F9422)
+I (Generated_Code\flash1.h)(0x553727C6)
+I (.\Static_Code\PDD\FTFA_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\MCM_PDD.h)(0x552F43D8)
+I (Generated_Code\GPIO1.h)(0x553F5FAE)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (Generated_Code\GPIO2.h)(0x553A1E02)
+I (Generated_Code\TI1.h)(0x552F459A)
+I (Generated_Code\TimerIntLdd1.h)(0x552F459A)
+I (Generated_Code\TU1.h)(0x552F459A)
+I (.\Static_Code\PDD\PIT_PDD.h)(0x552F43D8)
+I (.\Sources\Events.h)(0x55360512)
+I (.\Sources\extern.h)(0x5551AF6E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDF222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDF222)
+I (.\Sources\GPIO2.h)(0x553A1E02)
+F (.\Sources\Events.c)(0x55360472)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\events.o --omf_browse .\uvbuild\events.crf --depend .\uvbuild\events.d)
+I (.\Generated_Code\Cpu.h)(0x552F459A)
+I (.\Generated_Code\PE_Types.h)(0x55505AE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (.\Generated_Code\PE_Error.h)(0x554B1A1E)
+I (.\Generated_Code\PE_Const.h)(0x552F43D8)
+I (.\Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (Sources\Events.h)(0x55360512)
+I (.\Generated_Code\AS1.h)(0x552F459A)
+I (.\Generated_Code\AS2.h)(0x552F9422)
+I (.\Generated_Code\AD1.h)(0x5530E992)
+I (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (.\Generated_Code\GPIO1.h)(0x553F5FAE)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (.\Generated_Code\TI1.h)(0x552F459A)
+I (.\Generated_Code\TimerIntLdd1.h)(0x552F459A)
+I (.\Generated_Code\TU1.h)(0x552F459A)
+I (.\Static_Code\PDD\PIT_PDD.h)(0x552F43D8)
+F (.\Generated_Code\GPIO1.c)(0x553F5F78)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\gpio1.o --omf_browse .\uvbuild\gpio1.crf --depend .\uvbuild\gpio1.d)
+I (Generated_Code\GPIO1.h)(0x553F5FAE)
+I (Generated_Code\PE_Types.h)(0x55505AE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (Generated_Code\PE_Error.h)(0x554B1A1E)
+I (Generated_Code\PE_Const.h)(0x552F43D8)
+I (Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (Generated_Code\Cpu.h)(0x552F459A)
+F (.\Generated_Code\PE_LDD.c)(0x553A2750)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\pe_ldd.o --omf_browse .\uvbuild\pe_ldd.crf --depend .\uvbuild\pe_ldd.d)
+I (Generated_Code\PE_LDD.h)(0x553A2734)
+I (Generated_Code\PE_Types.h)(0x55505AE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (Generated_Code\PE_Error.h)(0x554B1A1E)
+I (Generated_Code\PE_Const.h)(0x552F43D8)
+I (Generated_Code\AD1.h)(0x5530E992)
+I (Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (Generated_Code\Cpu.h)(0x552F459A)
+I (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (Generated_Code\AS1.h)(0x552F459A)
+I (Generated_Code\AS2.h)(0x552F9422)
+I (Generated_Code\GPIO1.h)(0x553F5FAE)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (Generated_Code\GPIO2.h)(0x553A1E02)
+I (Generated_Code\TI1.h)(0x552F459A)
+I (Generated_Code\TimerIntLdd1.h)(0x552F459A)
+I (Generated_Code\TU1.h)(0x552F459A)
+I (.\Static_Code\PDD\PIT_PDD.h)(0x552F43D8)
+F (.\Generated_Code\TI1.c)(0x552F459A)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\ti1.o --omf_browse .\uvbuild\ti1.crf --depend .\uvbuild\ti1.d)
+I (.\Sources\Events.h)(0x55360512)
+I (.\Generated_Code\PE_Types.h)(0x55505AE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (.\Generated_Code\PE_Error.h)(0x554B1A1E)
+I (.\Generated_Code\PE_Const.h)(0x552F43D8)
+I (.\Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (.\Generated_Code\AS1.h)(0x552F459A)
+I (.\Generated_Code\Cpu.h)(0x552F459A)
+I (.\Generated_Code\AS2.h)(0x552F9422)
+I (.\Generated_Code\AD1.h)(0x5530E992)
+I (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (.\Generated_Code\GPIO1.h)(0x553F5FAE)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (.\Generated_Code\TI1.h)(0x552F459A)
+I (.\Generated_Code\TimerIntLdd1.h)(0x552F459A)
+I (.\Generated_Code\TU1.h)(0x552F459A)
+I (.\Static_Code\PDD\PIT_PDD.h)(0x552F43D8)
+F (.\Generated_Code\TU1.c)(0x553F756A)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\tu1.o --omf_browse .\uvbuild\tu1.crf --depend .\uvbuild\tu1.d)
+I (Generated_Code\TimerIntLdd1.h)(0x552F459A)
+I (Generated_Code\PE_Types.h)(0x55505AE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (Generated_Code\PE_Error.h)(0x554B1A1E)
+I (Generated_Code\PE_Const.h)(0x552F43D8)
+I (Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (Generated_Code\TU1.h)(0x552F459A)
+I (.\Static_Code\PDD\PIT_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (Generated_Code\Cpu.h)(0x552F459A)
+I (.\Sources\extern.h)(0x5551AF6E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDF222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDF222)
+I (.\Generated_Code\GPIO1.h)(0x553F5FAE)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (.\Sources\GPIO2.h)(0x553A1E02)
+I (.\Generated_Code\AS2.h)(0x552F9422)
+I (.\Generated_Code\AS1.h)(0x552F459A)
+I (.\Generated_Code\AD1.h)(0x5530E992)
+I (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)
+I (.\Generated_Code\Flash1.h)(0x553727C6)
+I (.\Static_Code\PDD\FTFA_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\MCM_PDD.h)(0x552F43D8)
+F (.\Generated_Code\TimerIntLdd1.c)(0x552F459A)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\timerintldd1.o --omf_browse .\uvbuild\timerintldd1.crf --depend .\uvbuild\timerintldd1.d)
+I (Generated_Code\TI1.h)(0x552F459A)
+I (Generated_Code\PE_Types.h)(0x55505AE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (Generated_Code\PE_Error.h)(0x554B1A1E)
+I (Generated_Code\PE_Const.h)(0x552F43D8)
+I (Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (Generated_Code\TimerIntLdd1.h)(0x552F459A)
+I (Generated_Code\TU1.h)(0x552F459A)
+I (.\Static_Code\PDD\PIT_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (Generated_Code\Cpu.h)(0x552F459A)
+F (.\Generated_Code\Vectors.c)(0x55347526)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\vectors.o --omf_browse .\uvbuild\vectors.crf --depend .\uvbuild\vectors.d)
+I (Generated_Code\Cpu.h)(0x552F459A)
+I (Generated_Code\PE_Types.h)(0x55505AE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (Generated_Code\PE_Error.h)(0x554B1A1E)
+I (Generated_Code\PE_Const.h)(0x552F43D8)
+I (Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (Generated_Code\AD1.h)(0x5530E992)
+I (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (Generated_Code\AS1.h)(0x552F459A)
+I (Generated_Code\AS2.h)(0x552F9422)
+I (Generated_Code\GPIO1.h)(0x553F5FAE)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (Generated_Code\TI1.h)(0x552F459A)
+I (Generated_Code\TimerIntLdd1.h)(0x552F459A)
+I (Generated_Code\TU1.h)(0x552F459A)
+I (.\Static_Code\PDD\PIT_PDD.h)(0x552F43D8)
+I (.\Sources\Events.h)(0x55360512)
+F (.\Sources\main.c)(0x5551D81C)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\main.o --omf_browse .\uvbuild\main.crf --depend .\uvbuild\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDF222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDF222)
+I (.\Generated_Code\Cpu.h)(0x552F459A)
+I (.\Generated_Code\PE_Types.h)(0x55505AE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (.\Generated_Code\PE_Error.h)(0x554B1A1E)
+I (.\Generated_Code\PE_Const.h)(0x552F43D8)
+I (.\Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (Sources\Events.h)(0x55360512)
+I (.\Generated_Code\AS1.h)(0x552F459A)
+I (.\Generated_Code\AS2.h)(0x552F9422)
+I (.\Generated_Code\AD1.h)(0x5530E992)
+I (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (.\Generated_Code\GPIO1.h)(0x553F5FAE)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (.\Generated_Code\TI1.h)(0x552F459A)
+I (.\Generated_Code\TimerIntLdd1.h)(0x552F459A)
+I (.\Generated_Code\TU1.h)(0x552F459A)
+I (.\Static_Code\PDD\PIT_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\UART0_PDD.h)(0x552F6A8A)
+I (.\Generated_Code\Flash1.h)(0x553727C6)
+I (.\Static_Code\PDD\FTFA_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\MCM_PDD.h)(0x552F43D8)
+I (Sources\extern.h)(0x5551AF6E)
+I (Sources\GPIO2.h)(0x553A1E02)
+I (Sources\modbus.h)(0x555192A8)
+I (Sources\os.h)(0x55508AFC)
+I (Sources\PSENSOR.h)(0x553F09F8)
+I (Sources\lmp91051.h)(0x55405628)
+I (Sources\co2.h)(0x55405556)
+I (Sources\flash.h)(0x5549FC9A)
+I (Sources\aq.h)(0x555193D8)
+F (.\Project_Settings\Startup_Code\startup_ARM_CC.c)(0x552F43D8)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\startup_arm_cc.o --omf_browse .\uvbuild\startup_arm_cc.crf --depend .\uvbuild\startup_arm_cc.d)
+F (.\Sources\os.c)(0x5551D84C)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\os.o --omf_browse .\uvbuild\os.crf --depend .\uvbuild\os.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDF222)
+I (.\Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (.\Generated_Code\AS2.h)(0x552F9422)
+I (.\Generated_Code\Cpu.h)(0x552F459A)
+I (.\Generated_Code\PE_Types.h)(0x55505AE8)
+I (.\Generated_Code\PE_Error.h)(0x554B1A1E)
+I (.\Generated_Code\PE_Const.h)(0x552F43D8)
+I (Sources\os.h)(0x55508AFC)
+I (Sources\extern.h)(0x5551AF6E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDF222)
+I (.\Generated_Code\GPIO1.h)(0x553F5FAE)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (Sources\GPIO2.h)(0x553A1E02)
+I (.\Generated_Code\AS1.h)(0x552F459A)
+I (.\Generated_Code\AD1.h)(0x5530E992)
+I (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)
+I (.\Generated_Code\Flash1.h)(0x553727C6)
+I (.\Static_Code\PDD\FTFA_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\MCM_PDD.h)(0x552F43D8)
+I (Sources\iic.h)(0x553DD046)
+I (Sources\htu21.h)(0x553DD04A)
+I (Sources\PSENSOR.h)(0x553F09F8)
+I (Sources\flash.h)(0x5549FC9A)
+I (Sources\caculate.h)(0x5551C03C)
+I (Sources\modbus.h)(0x555192A8)
+I (Sources\aq.h)(0x555193D8)
+F (.\Sources\flash.c)(0x5551953E)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\flash.o --omf_browse .\uvbuild\flash.crf --depend .\uvbuild\flash.d)
+I (Sources\flash.h)(0x5549FC9A)
+I (.\Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (.\Generated_Code\flash1.h)(0x553727C6)
+I (.\Generated_Code\PE_Types.h)(0x55505AE8)
+I (.\Generated_Code\PE_Error.h)(0x554B1A1E)
+I (.\Generated_Code\PE_Const.h)(0x552F43D8)
+I (.\Static_Code\PDD\FTFA_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (.\Static_Code\PDD\MCM_PDD.h)(0x552F43D8)
+I (.\Generated_Code\Cpu.h)(0x552F459A)
+I (Sources\extern.h)(0x5551AF6E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDF222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDF222)
+I (.\Generated_Code\GPIO1.h)(0x553F5FAE)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (Sources\GPIO2.h)(0x553A1E02)
+I (.\Generated_Code\AS2.h)(0x552F9422)
+I (.\Generated_Code\AS1.h)(0x552F459A)
+I (.\Generated_Code\AD1.h)(0x5530E992)
+I (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)
+I (Sources\modbus.h)(0x555192A8)
+I (Sources\registerlist.h)(0x5552CBEA)
+F (.\Sources\modbus.c)(0x555198FA)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\modbus.o --omf_browse .\uvbuild\modbus.crf --depend .\uvbuild\modbus.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDF222)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDF222)
+I (Sources\modbus.h)(0x555192A8)
+I (.\Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (Sources\registerlist.h)(0x5552CBEA)
+I (Sources\crc.h)(0x55348180)
+I (Sources\extern.h)(0x5551AF6E)
+I (.\Generated_Code\GPIO1.h)(0x553F5FAE)
+I (.\Generated_Code\PE_Types.h)(0x55505AE8)
+I (.\Generated_Code\PE_Error.h)(0x554B1A1E)
+I (.\Generated_Code\PE_Const.h)(0x552F43D8)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (.\Generated_Code\Cpu.h)(0x552F459A)
+I (Sources\GPIO2.h)(0x553A1E02)
+I (.\Generated_Code\AS2.h)(0x552F9422)
+I (.\Generated_Code\AS1.h)(0x552F459A)
+I (.\Generated_Code\AD1.h)(0x5530E992)
+I (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)
+I (.\Generated_Code\Flash1.h)(0x553727C6)
+I (.\Static_Code\PDD\FTFA_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\MCM_PDD.h)(0x552F43D8)
+I (Sources\flash.h)(0x5549FC9A)
+F (.\Sources\iic.c)(0x553F5E0A)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\iic.o --omf_browse .\uvbuild\iic.crf --depend .\uvbuild\iic.d)
+I (Sources\extern.h)(0x5551AF6E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDF222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDF222)
+I (.\Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (.\Generated_Code\GPIO1.h)(0x553F5FAE)
+I (.\Generated_Code\PE_Types.h)(0x55505AE8)
+I (.\Generated_Code\PE_Error.h)(0x554B1A1E)
+I (.\Generated_Code\PE_Const.h)(0x552F43D8)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (.\Generated_Code\Cpu.h)(0x552F459A)
+I (Sources\GPIO2.h)(0x553A1E02)
+I (.\Generated_Code\AS2.h)(0x552F9422)
+I (.\Generated_Code\AS1.h)(0x552F459A)
+I (.\Generated_Code\AD1.h)(0x5530E992)
+I (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)
+I (.\Generated_Code\Flash1.h)(0x553727C6)
+I (.\Static_Code\PDD\FTFA_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\MCM_PDD.h)(0x552F43D8)
+I (Sources\iic.h)(0x553DD046)
+F (.\Sources\htu21.c)(0x554C9A6C)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\htu21.o --omf_browse .\uvbuild\htu21.crf --depend .\uvbuild\htu21.d)
+I (Sources\iic.h)(0x553DD046)
+I (.\Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (Sources\htu21.h)(0x553DD04A)
+I (Sources\modbus.h)(0x555192A8)
+I (Sources\extern.h)(0x5551AF6E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDF222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDF222)
+I (.\Generated_Code\GPIO1.h)(0x553F5FAE)
+I (.\Generated_Code\PE_Types.h)(0x55505AE8)
+I (.\Generated_Code\PE_Error.h)(0x554B1A1E)
+I (.\Generated_Code\PE_Const.h)(0x552F43D8)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (.\Generated_Code\Cpu.h)(0x552F459A)
+I (Sources\GPIO2.h)(0x553A1E02)
+I (.\Generated_Code\AS2.h)(0x552F9422)
+I (.\Generated_Code\AS1.h)(0x552F459A)
+I (.\Generated_Code\AD1.h)(0x5530E992)
+I (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)
+I (.\Generated_Code\Flash1.h)(0x553727C6)
+I (.\Static_Code\PDD\FTFA_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\MCM_PDD.h)(0x552F43D8)
+I (Sources\caculate.h)(0x5551C03C)
+F (.\Generated_Code\FLASH1.c)(0x554B1BC4)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\flash1.o --omf_browse .\uvbuild\flash1.crf --depend .\uvbuild\flash1.d)
+I (.\Sources\Events.h)(0x55360512)
+I (.\Generated_Code\PE_Types.h)(0x55505AE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (.\Generated_Code\PE_Error.h)(0x554B1A1E)
+I (.\Generated_Code\PE_Const.h)(0x552F43D8)
+I (.\Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (.\Generated_Code\AS1.h)(0x552F459A)
+I (.\Generated_Code\Cpu.h)(0x552F459A)
+I (.\Generated_Code\AS2.h)(0x552F9422)
+I (.\Generated_Code\AD1.h)(0x5530E992)
+I (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (.\Generated_Code\GPIO1.h)(0x553F5FAE)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (.\Generated_Code\TI1.h)(0x552F459A)
+I (.\Generated_Code\TimerIntLdd1.h)(0x552F459A)
+I (.\Generated_Code\TU1.h)(0x552F459A)
+I (.\Static_Code\PDD\PIT_PDD.h)(0x552F43D8)
+I (Generated_Code\FLASH1.h)(0x553727C6)
+I (.\Static_Code\PDD\FTFA_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\MCM_PDD.h)(0x552F43D8)
+F (.\Sources\crc.c)(0x5534870E)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\crc.o --omf_browse .\uvbuild\crc.crf --depend .\uvbuild\crc.d)
+I (Sources\crc.h)(0x55348180)
+I (.\Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+F (.\Generated_Code\GPIO2.c)(0x553A1E02)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\gpio2.o --omf_browse .\uvbuild\gpio2.crf --depend .\uvbuild\gpio2.d)
+I (Generated_Code\GPIO2.h)(0x553A1E02)
+I (Generated_Code\PE_Types.h)(0x55505AE8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (Generated_Code\PE_Error.h)(0x554B1A1E)
+I (Generated_Code\PE_Const.h)(0x552F43D8)
+I (Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (Generated_Code\Cpu.h)(0x552F459A)
+F (.\Sources\PSENSOR.C)(0x553F1982)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\psensor.o --omf_browse .\uvbuild\psensor.crf --depend .\uvbuild\psensor.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDF222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDF222)
+I (Sources\extern.h)(0x5551AF6E)
+I (.\Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (.\Generated_Code\GPIO1.h)(0x553F5FAE)
+I (.\Generated_Code\PE_Types.h)(0x55505AE8)
+I (.\Generated_Code\PE_Error.h)(0x554B1A1E)
+I (.\Generated_Code\PE_Const.h)(0x552F43D8)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (.\Generated_Code\Cpu.h)(0x552F459A)
+I (Sources\GPIO2.h)(0x553A1E02)
+I (.\Generated_Code\AS2.h)(0x552F9422)
+I (.\Generated_Code\AS1.h)(0x552F459A)
+I (.\Generated_Code\AD1.h)(0x5530E992)
+I (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)
+I (.\Generated_Code\Flash1.h)(0x553727C6)
+I (.\Static_Code\PDD\FTFA_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\MCM_PDD.h)(0x552F43D8)
+I (Sources\PSENSOR.h)(0x553F09F8)
+I (Sources\iic.h)(0x553DD046)
+I (Sources\modbus.h)(0x555192A8)
+F (.\Sources\lmp91051.c)(0x5551CB22)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\lmp91051.o --omf_browse .\uvbuild\lmp91051.crf --depend .\uvbuild\lmp91051.d)
+I (Sources\modbus.h)(0x555192A8)
+I (.\Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (Sources\extern.h)(0x5551AF6E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDF222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDF222)
+I (.\Generated_Code\GPIO1.h)(0x553F5FAE)
+I (.\Generated_Code\PE_Types.h)(0x55505AE8)
+I (.\Generated_Code\PE_Error.h)(0x554B1A1E)
+I (.\Generated_Code\PE_Const.h)(0x552F43D8)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (.\Generated_Code\Cpu.h)(0x552F459A)
+I (Sources\GPIO2.h)(0x553A1E02)
+I (.\Generated_Code\AS2.h)(0x552F9422)
+I (.\Generated_Code\AS1.h)(0x552F459A)
+I (.\Generated_Code\AD1.h)(0x5530E992)
+I (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)
+I (.\Generated_Code\Flash1.h)(0x553727C6)
+I (.\Static_Code\PDD\FTFA_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\MCM_PDD.h)(0x552F43D8)
+I (Sources\lmp91051.h)(0x55405628)
+F (.\Sources\co2.c)(0x5551CB10)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\co2.o --omf_browse .\uvbuild\co2.crf --depend .\uvbuild\co2.d)
+I (Sources\extern.h)(0x5551AF6E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDF222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDF222)
+I (.\Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (.\Generated_Code\GPIO1.h)(0x553F5FAE)
+I (.\Generated_Code\PE_Types.h)(0x55505AE8)
+I (.\Generated_Code\PE_Error.h)(0x554B1A1E)
+I (.\Generated_Code\PE_Const.h)(0x552F43D8)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (.\Generated_Code\Cpu.h)(0x552F459A)
+I (Sources\GPIO2.h)(0x553A1E02)
+I (.\Generated_Code\AS2.h)(0x552F9422)
+I (.\Generated_Code\AS1.h)(0x552F459A)
+I (.\Generated_Code\AD1.h)(0x5530E992)
+I (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)
+I (.\Generated_Code\Flash1.h)(0x553727C6)
+I (.\Static_Code\PDD\FTFA_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\MCM_PDD.h)(0x552F43D8)
+I (Sources\lmp91051.h)(0x55405628)
+I (Sources\modbus.h)(0x555192A8)
+I (Sources\co2.h)(0x55405556)
+F (.\Sources\caculate.c)(0x5551C02A)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\caculate.o --omf_browse .\uvbuild\caculate.crf --depend .\uvbuild\caculate.d)
+I (Sources\extern.h)(0x5551AF6E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDF222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDF222)
+I (.\Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (.\Generated_Code\GPIO1.h)(0x553F5FAE)
+I (.\Generated_Code\PE_Types.h)(0x55505AE8)
+I (.\Generated_Code\PE_Error.h)(0x554B1A1E)
+I (.\Generated_Code\PE_Const.h)(0x552F43D8)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (.\Generated_Code\Cpu.h)(0x552F459A)
+I (Sources\GPIO2.h)(0x553A1E02)
+I (.\Generated_Code\AS2.h)(0x552F9422)
+I (.\Generated_Code\AS1.h)(0x552F459A)
+I (.\Generated_Code\AD1.h)(0x5530E992)
+I (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)
+I (.\Generated_Code\Flash1.h)(0x553727C6)
+I (.\Static_Code\PDD\FTFA_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\MCM_PDD.h)(0x552F43D8)
+I (Sources\modbus.h)(0x555192A8)
+I (Sources\caculate.h)(0x5551C03C)
+F (.\Sources\aq.c)(0x555193DC)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork -I ".\Static_Code\PDD" -I ".\Static_Code\IO_Map" -I ".\Sources" -I ".\Generated_Code" -I ".\Generated_Code" -I ".\Project_Settings\Startup_Code" -I ".\Sources"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I C:\Keil_v5\ARM\Inc\Freescale\Kinetis-o .\uvbuild\aq.o --omf_browse .\uvbuild\aq.crf --depend .\uvbuild\aq.d)
+I (Sources\extern.h)(0x5551AF6E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x52FDF222)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDF222)
+I (.\Generated_Code\IO_Map.h)(0x552F43D8)
+I (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDF222)
+I (.\Generated_Code\GPIO1.h)(0x553F5FAE)
+I (.\Generated_Code\PE_Types.h)(0x55505AE8)
+I (.\Generated_Code\PE_Error.h)(0x554B1A1E)
+I (.\Generated_Code\PE_Const.h)(0x552F43D8)
+I (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)
+I (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)
+I (.\Generated_Code\Cpu.h)(0x552F459A)
+I (Sources\GPIO2.h)(0x553A1E02)
+I (.\Generated_Code\AS2.h)(0x552F9422)
+I (.\Generated_Code\AS1.h)(0x552F459A)
+I (.\Generated_Code\AD1.h)(0x5530E992)
+I (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)
+I (.\Generated_Code\Flash1.h)(0x553727C6)
+I (.\Static_Code\PDD\FTFA_PDD.h)(0x552F43D8)
+I (.\Static_Code\PDD\MCM_PDD.h)(0x552F43D8)
+I (Sources\modbus.h)(0x555192A8)
+I (Sources\aq.h)(0x555193D8)
+F (.\Generated_Code\AD1.h)(0x5530E992)()
+F (.\Static_Code\PDD\ADC_PDD.h)(0x552F43D8)()
+F (.\Generated_Code\AS1.h)(0x552F459A)()
+F (.\Generated_Code\AS2.h)(0x552F9422)()
+F (.\Static_Code\PDD\CMP_PDD.h)(0x552F43D8)()
+F (.\Static_Code\PDD\COP_PDD.h)(0x552F43D8)()
+F (.\Generated_Code\Cpu.h)(0x552F459A)()
+F (.\Static_Code\PDD\DAC_PDD.h)(0x552F43D8)()
+F (.\Static_Code\PDD\DMAMUX_PDD.h)(0x552F43D8)()
+F (.\Static_Code\PDD\DMA_PDD.h)(0x552F43D8)()
+F (.\Sources\Events.h)(0x55360512)()
+F (.\Static_Code\PDD\FTFA_PDD.h)(0x552F43D8)()
+F (.\Generated_Code\GPIO1.h)(0x553F5FAE)()
+F (.\Static_Code\PDD\GPIO_PDD.h)(0x552F43D8)()
+F (.\Static_Code\PDD\I2C_PDD.h)(0x552F43D8)()
+F (.\Generated_Code\IO_Map.h)(0x552F43D8)()
+F (.\Static_Code\PDD\LPTMR_PDD.h)(0x552F43D8)()
+F (.\Static_Code\PDD\MCM_PDD.h)(0x552F43D8)()
+F (.\Static_Code\IO_Map\MKL15Z4.h)(0x552F93D0)()
+F (.\Static_Code\PDD\PDD_Types.h)(0x552F43D8)()
+F (.\Generated_Code\PE_Const.h)(0x552F43D8)()
+F (.\Generated_Code\PE_Error.h)(0x554B1A1E)()
+F (.\Generated_Code\PE_LDD.h)(0x553A2734)()
+F (.\Generated_Code\PE_Types.h)(0x55505AE8)()
+F (.\Static_Code\PDD\PIT_PDD.h)(0x552F43D8)()
+F (.\Static_Code\PDD\PORT_PDD.h)(0x552F43D8)()
+F (.\Static_Code\PDD\RTC_PDD.h)(0x552F43D8)()
+F (.\Static_Code\PDD\SIM_PDD.h)(0x552F43D8)()
+F (.\Static_Code\PDD\SPI_PDD.h)(0x552F43D8)()
+F (.\Static_Code\PDD\SysTick_PDD.h)(0x552F43D8)()
+F (.\Generated_Code\TI1.h)(0x552F459A)()
+F (.\Static_Code\PDD\TPM_PDD.h)(0x552F43D8)()
+F (.\Generated_Code\TU1.h)(0x552F459A)()
+F (.\Generated_Code\TimerIntLdd1.h)(0x552F459A)()
+F (.\Static_Code\PDD\UART0_PDD.h)(0x552F6A8A)()
+F (.\Static_Code\PDD\UART_PDD.h)(0x552F43D8)()

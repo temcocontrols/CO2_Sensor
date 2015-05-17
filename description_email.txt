@@ -1,0 +1,14 @@
+Raju, meet Guoxin You. He is working on the C02 sensor.
+ 
+We would like to implement the FFT strategy on our C02 sensor project. It is not critical to use Matlab, any FFT routines will probably be fine.
+ 
+We also need to add compensation for three different variables: temperature, humidity and pressure.
+All of these sensors are present on our module. We don’t have data yet though, will be working on that soon.
+ 
+ 
+Here is the basic concept of our sensor, its called a Non-dispersive Infra Red sensor.
+Light/heat from a small infra red source (basically a little incandescent lamp) travels through air with C02 in it.
+One detector has a filter set to let only one small band of light through, the band which matches the absorption of C02 gas.
+The other has no filter, the difference in the two signals gives you the C02 concentration.
+ 
+We have the basic sensing working, now we want to improve the accuracy.
