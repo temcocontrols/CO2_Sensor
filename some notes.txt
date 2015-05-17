@@ -1,0 +1,6 @@
+1. The IR signal from the source is usually chopped or modulated so that thermal background signals can be offset from the desired signal.
+
+2. The reflector surface can also be gold-coated to further enhance its efficiency in the infrared.
+
+3.
+
