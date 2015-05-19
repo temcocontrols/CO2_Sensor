@@ -1,0 +1,12 @@
+hi Raju:
+sample timing:     
+1. we turn on the transmitter for 500 ms and then turn off for 4000ms.  The whole cycle is 4500ms.
+2. After turn on transmitter , we will wait for 160ms for sensor warm up.
+3.switch the amplifier to active channel and reference channel every 20ms.
+4.During 20ms ,  do adc sample routine
+5.The difference value of reference channel and active channel  stand for the level of co2 concentration
+ 
+Because adc is very fast, i can not store the data so quickly. i need to do some optimize to the save the data. 
+i will send you the data later. 
+ 
+i'am always on skype, you can contact me at any time
