@@ -54,14 +54,16 @@ for i= 1:7
     end
 end
 
-active_fft =fft(active_data);
-reference_fft =fft(reference_data);
+% active_fft =fft(active_data);
+% reference_fft =fft(reference_data);
 
 
 t=1:70;
 hold on;
-stem(t,abs(active_fft),'r');
-stem(t,abs(reference_fft),'k');
+plot(t,active_data,'r');
+plot(t,reference_data,'k');
+% stem(t,abs(active_fft),'r');
+% stem(t,abs(reference_fft),'k');
 xlabel('Sample time');
 ylabel('adc value');
 
