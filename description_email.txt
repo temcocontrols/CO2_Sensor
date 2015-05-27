@@ -12,3 +12,23 @@ One detector has a filter set to let only one small band of light through, the b
 The other has no filter, the difference in the two signals gives you the C02 concentration.
  
 We have the basic sensing working, now we want to improve the accuracy.
+
+------------------------------------------------------------------------------------------------------------------------
+
+Raju: Can you print up your notes in word & pdf for GXY to store here in the project folder as well. Like what you did plus any final notes about our FFT attempt. Then we a good record of what we did so far.
+ 
+GXY: Store it under \Docs\FFT\*.*   <Word format report and .m files from Raju
+ 
+****************************************************************************
+ 
+Thanks for your efforts there Raju,
+ 
+FFT:
+You are probably right about this Raju, to get any meaningful data out of FFT we need to be sampling at very hihg frequency. Can you check through the white paper and other literature you may find and see if this is indeed how they are sampling. Our hardware is not capable of sampling at Ghz speeds, far from it.
+ 
+Temp/Hum/Pressure Compensation:
+GXY sent some data earlier with temperature varying while C02 is 'constant'. He assumed its constant but I doubt it really is. Anyway if you can design us a protocol and some math to use during calibration to calculate the temperature compensation coefficients, that would be time well spent.
+The test protocol will say set C02 to 700 ppm which is about what we have in the room here, and check the reading at 0C, 20C and 40C. Change the C0 level to 3000 ppm and repeat.
+ 
+Then we'll change humidity & pressure to do the same. All sensors will be put in the chamber and these coefficients will get calculated by the test rig and written to the on board E2 chip of each sensor. I believe I sent a pdf from one company doing some calculations. Here's one describing pressure compensation.
+ 
