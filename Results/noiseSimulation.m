@@ -1,7 +1,8 @@
-% The script calculates the FFT of given sampled IR signal.
-% clc;
-% clear all;
-% close all;
+% The script calculates the FFT of given sampled IR signal, calulates the
+% noise level at different sampling frequency.
+clc;
+clear all;
+close all;
 f=1:10; % Modulating frequency of IR signal
 k=1:20;
 % fs=k.*f; %Samping frequency ; Sampling frequency should always be greater or equal to 2 times of IR signal frequency
