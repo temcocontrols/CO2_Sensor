@@ -535,9 +535,9 @@ stem(fx,fftshift(Xa));
 title('Active Channel');
 xlabel('frequency in Hz');
 ylabel('Magnitude')
-axis([-0.5 0.5 0 4e4])
+axis([-0.02 0.02 0 4e4])
 grid on;
-% [freqx ampx]=ginput
+[freqx ampx]=ginput
 
 subplot(212);
 stem(fy,fftshift(Ya));
