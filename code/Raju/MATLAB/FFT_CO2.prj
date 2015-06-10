@@ -241,10 +241,7 @@
         <param.CustomSource />
         <param.CustomLibrary />
         <param.PostCodeGenCommand />
-        <param.CodeReplacementLibrary />
         <param.SameHardware />
-        <param.HardwareVendor.Production />
-        <param.HardwareType.Production />
         <var.instance.enabled.Production />
         <param.HardwareSizeChar.Production />
         <param.HardwareSizeShort.Production />
@@ -259,8 +256,6 @@
         <param.HardwareAtomicIntegerSize.Production />
         <param.HardwareAtomicFloatSize.Production />
         <param.HardwareDivisionRounding.Production />
-        <param.HardwareVendor.Target />
-        <param.HardwareType.Target />
         <var.instance.enabled.Target />
         <param.HardwareSizeChar.Target />
         <param.HardwareSizeShort.Target />
@@ -275,8 +270,6 @@
         <param.HardwareAtomicIntegerSize.Target />
         <param.HardwareAtomicFloatSize.Target />
         <param.HardwareDivisionRounding.Target />
-        <param.Toolchain />
-        <param.BuildConfiguration />
         <param.CustomToolchainOptions />
         <param.ConstantFoldingTimeout />
         <param.IncludeTerminateFcn />
