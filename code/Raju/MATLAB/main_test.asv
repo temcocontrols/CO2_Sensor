@@ -253,5 +253,8 @@ active_data= [1849
 33666
 ];
 active_data=active_data';
-active_data=active_data(6:70);
-Value_Active=FFT_CO2(active_data);
+active_data=active_data(1:64);
+Value_Active=FFT_test(active_data);
+
+% x=active_data(1:2:end);
+% Value_Active = FFT_CO2(x);

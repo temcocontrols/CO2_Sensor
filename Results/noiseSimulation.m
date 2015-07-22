@@ -7,7 +7,7 @@ f=1:10; % Modulating frequency of IR signal
 k=1:20;
 % fs=k.*f; %Samping frequency ; Sampling frequency should always be greater or equal to 2 times of IR signal frequency
 % t=0:1/fs:1/f; % For sampling timing index
-xn=0; % Noise signal , assuming white noise
+xn=0.2; % Noise signal , assuming white noise
 
 for i=1:1
     for j=1:length(k)
@@ -23,6 +23,8 @@ for i=1:1
         noiseVal(i,j)=abs((sum(abs(XaShifted))-2*abs(signalAmpatf))/(length(XaShifted)-2)); %
        
     end 
+%     plot(XaShifted);
+%         hold on;
 end
 hold on
 plot(fs,noiseVal(1,:));
