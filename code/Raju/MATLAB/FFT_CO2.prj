@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deployment-project plugin="plugin.matlabcoder" plugin-version="R2013a">
-  <configuration target="target.matlab.coder" target-name="MEX, C, and C++ Code Generation" name="FFT_CO2" location="C:\Users\Raju\Desktop\Github\CO2_Sensor\code\Raju\MATLAB" file="C:\Users\Raju\Desktop\Github\CO2_Sensor\code\Raju\MATLAB\FFT_CO2.prj" build-checksum="691653878">
+  <configuration target="target.matlab.coder" target-name="MEX, C, and C++ Code Generation" name="FFT_CO2" location="C:\Users\Raju\Desktop\Github\CO2_Sensor\code\Raju\MATLAB" file="C:\Users\Raju\Desktop\Github\CO2_Sensor\code\Raju\MATLAB\FFT_CO2.prj" build-checksum="2414056642">
     <profile key="profile.mex">
       <param.MergeInstrumentationResults>false</param.MergeInstrumentationResults>
       <param.BuiltInstrumentedMex>false</param.BuiltInstrumentedMex>
@@ -299,8 +299,8 @@
     <param.CallGeneratedCodeFromTest>true</param.CallGeneratedCodeFromTest>
     <param.DefaultTestFile>${PROJECT_ROOT}\FFT_CO2.m</param.DefaultTestFile>
     <param.AutoInferDefaultFile>${PROJECT_ROOT}\main_test.m</param.AutoInferDefaultFile>
-    <param.AutoInferUseVariableSize>true</param.AutoInferUseVariableSize>
-    <param.AutoInferUseUnboundedSize>true</param.AutoInferUseUnboundedSize>
+    <param.AutoInferUseVariableSize>false</param.AutoInferUseVariableSize>
+    <param.AutoInferUseUnboundedSize>false</param.AutoInferUseUnboundedSize>
     <param.AutoInferVariableSizeThreshold>1024</param.AutoInferVariableSizeThreshold>
     <param.AutoInferUnboundedSizeThreshold>2048</param.AutoInferUnboundedSizeThreshold>
     <param.mex.outputfile>FFT_CO2_mex</param.mex.outputfile>
@@ -347,6 +347,8 @@
       <param.HasECoderFeatures />
       <param.mex.mainhtml />
       <param.CallGeneratedCodeFromTest />
+      <param.AutoInferUseVariableSize />
+      <param.AutoInferUseUnboundedSize />
       <param.AutoInferVariableSizeThreshold />
       <param.AutoInferUnboundedSizeThreshold />
       <param.mex.outputfile />
@@ -389,10 +391,10 @@
     <fileset.entrypoints>
       <file value="${PROJECT_ROOT}\FFT_CO2.m" custom-data-expanded="false">
         <Inputs fileName="FFT_CO2.m" functionName="FFT_CO2">
-          <Input Name="x">
+          <Input Name="sampled_data">
             <Class>double</Class>
             <UserDefined>false</UserDefined>
-            <Size>1 x 250</Size>
+            <Size>1 x 64</Size>
             <Complex>false</Complex>
           </Input>
         </Inputs>
