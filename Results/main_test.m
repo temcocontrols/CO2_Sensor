@@ -253,4 +253,5 @@ active_data= [1849
 33666
 ];
 
-Value_Active = FFT_CO2(active_data);
+Value_Active = FFT_CO2(active_data)
+% Value_Active = fft_fp(active_data,64)

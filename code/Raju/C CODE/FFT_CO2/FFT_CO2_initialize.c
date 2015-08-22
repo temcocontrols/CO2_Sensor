@@ -1,21 +1,21 @@
 /*
- * FFT_CO2_initialize.c
+ * fft_co2_initialize.c
  *
- * Code generation for function 'FFT_CO2_initialize'
+ * Code generation for function 'fft_co2_initialize'
  *
- * C source code generated on: Thu May 28 00:19:15 2015
+ * C source code generated on: Sun Aug 23 02:15:12 2015
  *
  */
 
 /* Include files */
 #include "rt_nonfinite.h"
-#include "FFT_CO2.h"
-#include "FFT_CO2_initialize.h"
+#include "fft_co2.h"
+#include "fft_co2_initialize.h"
 
 /* Function Definitions */
-void FFT_CO2_initialize(void)
+void fft_co2_initialize(void)
 {
   rt_InitInfAndNaN(8U);
 }
 
-/* End of code generation (FFT_CO2_initialize.c) */
+/* End of code generation (fft_co2_initialize.c) */

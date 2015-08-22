@@ -1,9 +1,9 @@
 /*
- * FFT_CO2.h
+ * fft_co2.h
  *
- * Code generation for function 'FFT_CO2'
+ * Code generation for function 'fft_co2'
  *
- * C source code generated on: Wed Jul 22 12:27:56 2015
+ * C source code generated on: Sun Aug 23 02:15:12 2015
  *
  */
 
@@ -16,9 +16,9 @@
 #include "rt_nonfinite.h"
 
 #include "rtwtypes.h"
-#include "FFT_CO2_types.h"
+#include "fft_co2_types.h"
 
 /* Function Declarations */
-extern real_T FFT_CO2(const real_T sampled_data[64]);
+extern real_T fft_co2(const real_T X[64]);
 #endif
-/* End of code generation (FFT_CO2.h) */
+/* End of code generation (fft_co2.h) */

@@ -1,9 +1,9 @@
 /*
  * rtGetNaN.c
  *
- * Code generation for function 'FFT_CO2'
+ * Code generation for function 'fft_co2'
  *
- * C source code generated on: Thu May 28 00:19:17 2015
+ * C source code generated on: Sun Aug 23 02:15:12 2015
  *
  */
 

@@ -6,5 +6,5 @@ function snrdB = FFT_CO2(sampled_data)
     signal_value=max(absFFT_sampled_data);
     noise_mean=(sum(absFFT_sampled_data)-signal_value)/(length(sampled_data)-1);    
     snrVal=signal_value/noise_mean;
-%     snrdB=10*log10(snrVal); 
+    snrdB=10*log10(snrVal); 
 end

@@ -1,4 +1,4 @@
- function snrdB = fft_fp(X)
+ function value_active = fft_fp(X,N)
 % newFFT: - returns the discrete Fourier transform (DFT) of vector X,
 % computed with a fast Fourier transform (FFT) algorithm. If X is a matrix,
 % newFFT returns the Fourier transform of each column of the matrix
@@ -21,7 +21,7 @@
 %------------- BEGIN CODE --------------
 
 
-N=64;
+
 [m n]= size(X);
 
 % If the length of X is greater than n, the sequence X is truncated.
@@ -45,15 +45,12 @@ wn  = 2*pi*fn;
 p= -j*wn*tk;
 
 Wp  = exp(p); %DFT Matrix
-Y   = Wp*Xmod;
+% disp('Wp Float')
+% disp(Wp.float)
 
-delta=160e-3;
-fs=1/delta;
-FFT_sampled_data=1/m*Y;
-absFFT_sampled_data=abs(FFT_sampled_data);
-signal_value=max(absFFT_sampled_data);
-noise_mean=(sum(absFFT_sampled_data)-signal_value)/(m-1);    
-snrVal=signal_value/noise_mean;
-snrdB=10*log10(snrVal); 
+Y   = Wp*Xmod;
+Y1=1/250*fft(Y,256);
+Ya=abs(Y1);
+value_active=max(Ya);
 
 %------------- END OF CODE --------------
