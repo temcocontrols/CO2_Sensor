@@ -1,11 +1,11 @@
 ###########################################################################
-## File : FFT_CO2_rtw.mk
+## File : fft_co2_rtw.mk
 ## 
-## Makefile generated for MATLAB file/project 'FFT_CO2'. 
+## Makefile generated for MATLAB file/project 'fft_co2'. 
 ## 
 ## Makefile Info:
 ## 
-## Final product: $(RELATIVE_PATH_TO_ANCHOR)\FFT_CO2.lib
+## Final product: $(RELATIVE_PATH_TO_ANCHOR)\fft_co2.lib
 ## Product type : static-library
 ## 
 ## MATLAB Coder version: 2.4 (R2013a)
@@ -24,12 +24,12 @@
 # GEN_LNK_SCRIPT          Perl script to generate the command file
 # CMD_FILE                Command file
 
-PRODUCT_NAME              = FFT_CO2
-MAKEFILE                  = FFT_CO2_rtw.mk
+PRODUCT_NAME              = fft_co2
+MAKEFILE                  = fft_co2_rtw.mk
 COMPUTER                  = PCWIN
 ARCH                      = win32
 MATLAB_ROOT               = C:\PROGRA~1\MATLAB\R2013a
-START_DIR                 = C:\Users\Raju\Desktop\Github\CO2_SE~1\code\Raju\MATLAB\codegen\lib\FFT_CO2
+START_DIR                 = C:\Users\Raju\Desktop\Github\CO2_SE~1\code\Raju\MATLAB\codegen\lib\fft_co2
 RELATIVE_PATH_TO_ANCHOR   = .
 MATLAB_BIN                = $(MATLAB_ROOT)\bin
 MATLAB_ARCH_BIN           = $(MATLAB_ROOT)\bin\win32
@@ -42,16 +42,16 @@ NODEBUG                   = 1
 ## TOOLCHAIN SPECIFICATIONS
 ###########################################################################
 
-TOOLCHAIN_MAKEFILE = FFT_CO2_rtw_tools.mk
+TOOLCHAIN_MAKEFILE = fft_co2_rtw_tools.mk
 
-!include FFT_CO2_rtw_tools.mk
+!include fft_co2_rtw_tools.mk
 
 
 ###########################################################################
 ## OUTPUT INFO
 ###########################################################################
 
-PRODUCT = $(RELATIVE_PATH_TO_ANCHOR)\FFT_CO2.lib
+PRODUCT = $(RELATIVE_PATH_TO_ANCHOR)\fft_co2.lib
 PRODUCT_TYPE = "static-library"
 BUILD_TYPE = "Static Library"
 
@@ -67,7 +67,7 @@ INCLUDES = $(INCLUDES_BUILDINFO)
 ## DEFINES
 ###########################################################################
 
-DEFINES_STANDARD = -DMODEL=FFT_CO2 -DHAVESTDIO -DUSE_RTMODEL
+DEFINES_STANDARD = -DMODEL=fft_co2 -DHAVESTDIO -DUSE_RTMODEL
 
 DEFINES = $(DEFINES_STANDARD)
 
@@ -75,13 +75,13 @@ DEFINES = $(DEFINES_STANDARD)
 ## SOURCE FILES
 ###########################################################################
 
-SRCS = $(START_DIR)\FFT_CO2_initialize.c $(START_DIR)\FFT_CO2_terminate.c $(START_DIR)\FFT_CO2.c $(START_DIR)\fft.c $(START_DIR)\abs.c $(START_DIR)\rt_nonfinite.c $(START_DIR)\rtGetNaN.c $(START_DIR)\rtGetInf.c
+SRCS = $(START_DIR)\fft_co2_initialize.c $(START_DIR)\fft_co2_terminate.c $(START_DIR)\fft_co2.c $(START_DIR)\rt_nonfinite.c $(START_DIR)\rtGetNaN.c $(START_DIR)\rtGetInf.c
 
 ###########################################################################
 ## OBJECTS
 ###########################################################################
 
-OBJS = FFT_CO2_initialize.obj FFT_CO2_terminate.obj FFT_CO2.obj fft.obj abs.obj rt_nonfinite.obj rtGetNaN.obj rtGetInf.obj
+OBJS = fft_co2_initialize.obj fft_co2_terminate.obj fft_co2.obj rt_nonfinite.obj rtGetNaN.obj rtGetInf.obj
 
 ###########################################################################
 ## LIBRARIES

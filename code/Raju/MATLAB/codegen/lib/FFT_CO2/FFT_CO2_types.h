@@ -1,9 +1,9 @@
 /*
- * FFT_CO2_types.h
+ * fft_co2_types.h
  *
- * Code generation for function 'FFT_CO2'
+ * Code generation for function 'fft_co2'
  *
- * C source code generated on: Wed Jul 22 12:27:55 2015
+ * C source code generated on: Sun Aug 23 02:15:12 2015
  *
  */
 
@@ -14,4 +14,4 @@
 #include "rtwtypes.h"
 
 #endif
-/* End of code generation (FFT_CO2_types.h) */
+/* End of code generation (fft_co2_types.h) */
