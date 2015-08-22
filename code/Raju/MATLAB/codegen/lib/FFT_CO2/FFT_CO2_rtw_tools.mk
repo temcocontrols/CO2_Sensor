@@ -1,7 +1,7 @@
 ###########################################################################
-## File : FFT_CO2_rtw_tools.mk
+## File : fft_co2_rtw_tools.mk
 ## 
-## Makefile generated for MATLAB file/project 'FFT_CO2'. 
+## Makefile generated for MATLAB file/project 'fft_co2'. 
 ## 
 ## Makefile Info:
 ## 

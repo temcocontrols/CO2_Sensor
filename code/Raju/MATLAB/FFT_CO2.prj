@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deployment-project plugin="plugin.matlabcoder" plugin-version="R2013a">
-  <configuration target="target.matlab.coder" target-name="MEX, C, and C++ Code Generation" name="FFT_CO2" location="C:\Users\Raju\Desktop\Github\CO2_Sensor\code\Raju\MATLAB" file="C:\Users\Raju\Desktop\Github\CO2_Sensor\code\Raju\MATLAB\FFT_CO2.prj" build-checksum="2414056642">
+  <configuration target="target.matlab.coder" target-name="MEX, C, and C++ Code Generation" name="FFT_CO2" location="C:\Users\Raju\Desktop\Github\CO2_Sensor\code\Raju\MATLAB" file="C:\Users\Raju\Desktop\Github\CO2_Sensor\code\Raju\MATLAB\FFT_CO2.prj" build-checksum="476482907">
     <profile key="profile.mex">
       <param.MergeInstrumentationResults>false</param.MergeInstrumentationResults>
       <param.BuiltInstrumentedMex>false</param.BuiltInstrumentedMex>
@@ -291,11 +291,11 @@
         <param.UseECoderFeatures />
       </unset>
     </profile>
-    <param.outputfile>${PROJECT_ROOT}\codegen\lib\FFT_CO2\FFT_CO2.lib</param.outputfile>
+    <param.outputfile>${PROJECT_ROOT}\codegen\lib\fft_co2\fft_co2.lib</param.outputfile>
     <param.version>R2012a</param.version>
     <param.HasECoderFeatures>true</param.HasECoderFeatures>
     <param.mex.mainhtml />
-    <param.grt.mainhtml>C:\Users\Raju\Desktop\Github\CO2_Sensor\code\Raju\MATLAB\codegen\lib\FFT_CO2\html\index.html</param.grt.mainhtml>
+    <param.grt.mainhtml>C:\Users\Raju\Desktop\Github\CO2_Sensor\code\Raju\MATLAB\codegen\lib\fft_co2\html\index.html</param.grt.mainhtml>
     <param.CallGeneratedCodeFromTest>true</param.CallGeneratedCodeFromTest>
     <param.DefaultTestFile>${PROJECT_ROOT}\FFT_CO2.m</param.DefaultTestFile>
     <param.AutoInferDefaultFile>${PROJECT_ROOT}\main_test.m</param.AutoInferDefaultFile>
@@ -303,8 +303,8 @@
     <param.AutoInferUseUnboundedSize>false</param.AutoInferUseUnboundedSize>
     <param.AutoInferVariableSizeThreshold>1024</param.AutoInferVariableSizeThreshold>
     <param.AutoInferUnboundedSizeThreshold>2048</param.AutoInferUnboundedSizeThreshold>
-    <param.mex.outputfile>FFT_CO2_mex</param.mex.outputfile>
-    <param.grt.outputfile>FFT_CO2</param.grt.outputfile>
+    <param.mex.outputfile>fft_co2_mex</param.mex.outputfile>
+    <param.grt.outputfile>fft_co2</param.grt.outputfile>
     <param.artifact>option.target.artifact.lib</param.artifact>
     <param.FixedPointTypeProposalMode>option.FixedPointTypeProposalMode.ProposeFractionLengths</param.FixedPointTypeProposalMode>
     <param.DefaultProposedFixedPointType>numerictype([],16,12)</param.DefaultProposedFixedPointType>
@@ -389,12 +389,12 @@
       <param.DefaultFixedPointSignedness />
     </unset>
     <fileset.entrypoints>
-      <file value="${PROJECT_ROOT}\FFT_CO2.m" custom-data-expanded="false">
-        <Inputs fileName="FFT_CO2.m" functionName="FFT_CO2">
-          <Input Name="sampled_data">
+      <file value="${PROJECT_ROOT}\fft_co2.m" custom-data-expanded="false">
+        <Inputs fileName="fft_co2.m" functionName="fft_co2">
+          <Input Name="X">
             <Class>double</Class>
             <UserDefined>false</UserDefined>
-            <Size>1 x 64</Size>
+            <Size>64 x 1</Size>
             <Complex>false</Complex>
           </Input>
         </Inputs>
@@ -406,7 +406,7 @@
     </fileset.testbench>
     <fileset.package />
     <build-deliverables>
-      <file name="FFT_CO2.lib" location="${PROJECT_ROOT}\codegen\lib\FFT_CO2" optional="false">C:\Users\Raju\Desktop\Github\CO2_Sensor\code\Raju\MATLAB\codegen\lib\FFT_CO2\FFT_CO2.lib</file>
+      <file name="fft_co2.lib" location="${PROJECT_ROOT}\codegen\lib\fft_co2" optional="false">C:\Users\Raju\Desktop\Github\CO2_Sensor\code\Raju\MATLAB\codegen\lib\fft_co2\fft_co2.lib</file>
     </build-deliverables>
     <workflow />
     <matlab>

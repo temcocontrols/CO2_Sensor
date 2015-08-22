@@ -4,7 +4,7 @@ call "%VS100COMNTOOLS%..\..\VC\vcvarsall.bat"
 
 cd .
 
-if "%1"=="" (nmake -f FFT_CO2_rtw.mk all) else (nmake -f FFT_CO2_rtw.mk %1)
+if "%1"=="" (nmake -f fft_co2_rtw.mk all) else (nmake -f fft_co2_rtw.mk %1)
 @if errorlevel 1 goto error_exit
 
 exit /B 0

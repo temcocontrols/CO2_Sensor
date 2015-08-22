@@ -1,9 +1,9 @@
 /*
- * FFT_CO2_terminate.h
+ * fft_co2_terminate.h
  *
- * Code generation for function 'FFT_CO2_terminate'
+ * Code generation for function 'fft_co2_terminate'
  *
- * C source code generated on: Thu May 28 00:19:16 2015
+ * C source code generated on: Sun Aug 23 02:15:12 2015
  *
  */
 
@@ -13,13 +13,12 @@
 #include <math.h>
 #include <stddef.h>
 #include <stdlib.h>
-#include <string.h>
 #include "rt_nonfinite.h"
 
 #include "rtwtypes.h"
-#include "FFT_CO2_types.h"
+#include "fft_co2_types.h"
 
 /* Function Declarations */
-extern void FFT_CO2_terminate(void);
+extern void fft_co2_terminate(void);
 #endif
-/* End of code generation (FFT_CO2_terminate.h) */
+/* End of code generation (fft_co2_terminate.h) */

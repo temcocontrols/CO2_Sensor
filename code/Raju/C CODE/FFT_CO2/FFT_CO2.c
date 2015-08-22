@@ -1,44 +1,67 @@
 /*
- * FFT_CO2.c
+ * fft_co2.c
  *
- * Code generation for function 'FFT_CO2'
+ * Code generation for function 'fft_co2'
  *
- * C source code generated on: Thu May 28 00:19:16 2015
+ * C source code generated on: Sun Aug 23 02:15:12 2015
  *
  */
 
 /* Include files */
 #include "rt_nonfinite.h"
-#include "FFT_CO2.h"
-#include "abs.h"
-#include "fft.h"
+#include "fft_co2.h"
 
 /* Function Definitions */
-real_T FFT_CO2(const real_T x[250])
+real_T fft_co2(const real_T X[64])
 {
-  real_T value_active;
-  creal_T b[256];
-  creal_T dcv0[256];
-  int32_T ixstart;
-  real_T Xa[256];
+  real_T snrdB;
+  real_T dv0[64];
+  real_T absFFT_sampled_data[64];
   int32_T ix;
+  int32_T i0;
+  real_T FFT_sampled_data[64];
+  real_T mtmp;
   boolean_T exitg1;
-  fft(x, b);
-  for (ixstart = 0; ixstart < 256; ixstart++) {
-    dcv0[ixstart].re = 0.004 * b[ixstart].re;
-    dcv0[ixstart].im = 0.004 * b[ixstart].im;
+  real_T y;
+
+  /*  newFFT: - returns the discrete Fourier transform (DFT) of vector X, */
+  /*  computed with a fast Fourier transform (FFT) algorithm. If X is a matrix, */
+  /*  newFFT returns the Fourier transform of each column of the matrix */
+  /*  Syntax: Y = newFFT(X,N) */
+  /*  */
+  /*  Inputs: */
+  /*     X          - Time domain input signal */
+  /*     N          - Number of FFT point */
+  /*  */
+  /*  Outputs: */
+  /*     Y      - Frequency domain N point DFT */
+  /*  */
+  /*  Other m-files required:  */
+  /*    Subfunctions:  */
+  /*    Upperfuncions:  */
+  /*    MAT-files required:  */
+  /*  */
+  /* ------------- BEGIN CODE -------------- */
+  /*  If the length of X is greater than n, the sequence X is truncated. */
+  /*  j   = sqrt(-1); */
+  /* DFT Matrix */
+  for (ix = 0; ix < 64; ix++) {
+    dv0[ix] = 0.0;
+    for (i0 = 0; i0 < 64; i0++) {
+      dv0[ix] = rtNaN;
+    }
+
+    FFT_sampled_data[ix] = 0.015625 * dv0[ix];
+    absFFT_sampled_data[ix] = FFT_sampled_data[ix];
   }
 
-  b_abs(dcv0, Xa);
-  ixstart = 1;
-  value_active = Xa[0];
-  if (rtIsNaN(Xa[0])) {
+  mtmp = absFFT_sampled_data[0];
+  if (rtIsNaN(absFFT_sampled_data[0])) {
     ix = 2;
     exitg1 = FALSE;
-    while ((exitg1 == FALSE) && (ix < 257)) {
-      ixstart = ix;
-      if (!rtIsNaN(Xa[ix - 1])) {
-        value_active = Xa[ix - 1];
+    while ((exitg1 == FALSE) && (ix < 65)) {
+      if (!rtIsNaN(absFFT_sampled_data[ix - 1])) {
+        mtmp = absFFT_sampled_data[ix - 1];
         exitg1 = TRUE;
       } else {
         ix++;
@@ -46,17 +69,15 @@ real_T FFT_CO2(const real_T x[250])
     }
   }
 
-  if (ixstart < 256) {
-    while (ixstart + 1 < 257) {
-      if (Xa[ixstart] > value_active) {
-        value_active = Xa[ixstart];
-      }
-
-      ixstart++;
-    }
+  y = absFFT_sampled_data[0];
+  for (ix = 0; ix < 63; ix++) {
+    y += absFFT_sampled_data[ix + 1];
   }
 
-  return value_active;
+  snrdB = 10.0 * log10(mtmp / ((y - mtmp) / 63.0));
+
+  /* ------------- END OF CODE -------------- */
+  return snrdB;
 }
 
-/* End of code generation (FFT_CO2.c) */
+/* End of code generation (fft_co2.c) */
