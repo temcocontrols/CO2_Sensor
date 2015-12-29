@@ -1,5 +1,5 @@
 ## CO2 Sensor
-CO2 Sensor based on NDIR principle
+CO2 sensor with Humidity & Temp transmitters are designed for environment monitoring and controlling in industrial, commercial and other buildings. These transmitters can be used for indoor C02, temperature and humidity monitoring. The modbus interface provides easy setup and integration into large systems. 
 
 ![Co2 Picture](https://github.com/temcocontrols/CO2_Sensor/blob/master/image/co2_gif.gif)
 
