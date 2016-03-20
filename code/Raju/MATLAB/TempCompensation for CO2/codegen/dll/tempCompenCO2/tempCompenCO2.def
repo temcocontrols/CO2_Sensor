@@ -1,0 +1,4 @@
+EXPORTS
+tempCompenCO2
+tempCompenCO2_initialize
+tempCompenCO2_terminate
