@@ -1,3 +1,5 @@
+ ------------------- Notes -------------------------
+
 1. The IR signal from the source is usually chopped or modulated so that thermal background signals can be offset from the desired signal.
 
 2. The reflector surface can also be gold-coated to further enhance its efficiency in the infrared.
@@ -5,4 +7,5 @@
 3. Infra red frequency band 4e14-8e14 and carbon dioxide is absorbed strongly at 4.26 microns
 
 4. http://www.e-ucenje-kel.ftn.uns.ac.rs/eSite/index.php/general-description/gas-sensors/171-electronic-gas-sensors-and-detectors-clasification-and-operating-principles
+
 
